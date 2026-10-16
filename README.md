@@ -43,8 +43,6 @@
 
 <div align="center">
 
-<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kanchanpotdar&theme=github_dark&title_color=DAF561&text_color=F6F8FF&bg_color=132441&border_color=DAF561&icon_color=DAF561&chart_color=DAF561&animation=sequence&duration=2" alt="Kanchan's organized contribution timeline" />
-
 ### `PAC-MAN // LIVE CONTRIBUTION MAP`
 
 <picture>
