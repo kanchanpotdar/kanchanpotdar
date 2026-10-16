@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Identity profile</title>
+  <desc id="desc">Kanchan Potdar, Applied AI Builder at IIT Kharagpur.</desc>
+  <style>
+    .sans { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+  <rect width="1200" height="300" rx="10" fill="#C9362B"/>
+  <rect x="38" y="34" width="408" height="58" rx="4" fill="#F2C94C"/>
+  <text x="62" y="73" class="sans" font-size="30" font-weight="800" fill="#8F211A">APPLIED AI BUILDER</text>
+  <text x="42" y="157" class="sans" font-size="46" font-weight="800" fill="#FFF4CC">KANCHAN POTDAR</text>
+  <text x="44" y="207" class="sans" font-size="24" font-weight="700" fill="#F2C94C">Data · Research · Agentic AI</text>
+  <rect x="735" y="46" width="425" height="208" rx="6" fill="#F2C94C"/>
+  <text x="770" y="104" class="sans" font-size="18" font-weight="700" fill="#8F211A">EDUCATION</text>
+  <text x="770" y="151" class="sans" font-size="29" font-weight="800" fill="#C9362B">IIT KHARAGPUR</text>
+  <text x="770" y="194" class="sans" font-size="20" font-weight="700" fill="#8F211A">FOURTH-YEAR MECHANICAL</text>
+  <text x="770" y="224" class="sans" font-size="20" font-weight="700" fill="#8F211A">ENGINEERING STUDENT</text>
+</svg>

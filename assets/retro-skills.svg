@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Skills</title>
+  <desc id="desc">AI engineering, agentic systems, machine learning, data engineering, and product skills.</desc>
+  <style>
+    .sans { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+  <rect width="1200" height="390" rx="10" fill="#C9362B"/>
+  <text x="42" y="64" class="sans" font-size="36" font-weight="800" fill="#F2C94C">SKILLS</text>
+  <path d="M300 102V344M600 102V344M900 102V344" stroke="#F2C94C" stroke-width="3"/>
+  <text x="42" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">AI ENGINEERING</text>
+  <text x="42" y="179" class="sans" font-size="18" fill="#FFF4CC">Python · PyTorch</text>
+  <text x="42" y="213" class="sans" font-size="18" fill="#FFF4CC">LLMs · Deep Learning</text>
+  <text x="42" y="247" class="sans" font-size="18" fill="#FFF4CC">NLP · Computer Vision</text>
+  <text x="342" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">AGENTIC SYSTEMS</text>
+  <text x="342" y="179" class="sans" font-size="18" fill="#FFF4CC">LangGraph · RAG</text>
+  <text x="342" y="213" class="sans" font-size="18" fill="#FFF4CC">Embeddings · Workflows</text>
+  <text x="342" y="247" class="sans" font-size="18" fill="#FFF4CC">Structured Outputs</text>
+  <text x="642" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">MACHINE LEARNING</text>
+  <text x="642" y="179" class="sans" font-size="18" fill="#FFF4CC">Machine Learning</text>
+  <text x="642" y="213" class="sans" font-size="18" fill="#FFF4CC">Time-Series Modelling</text>
+  <text x="642" y="247" class="sans" font-size="18" fill="#FFF4CC">Model Evaluation</text>
+  <text x="942" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">DATA &amp; PRODUCT</text>
+  <text x="942" y="179" class="sans" font-size="18" fill="#FFF4CC">FastAPI · SQL</text>
+  <text x="942" y="213" class="sans" font-size="18" fill="#FFF4CC">PostgreSQL · Data</text>
+  <text x="942" y="247" class="sans" font-size="18" fill="#FFF4CC">Azure AI · Product</text>
+  <rect x="42" y="302" width="1116" height="42" rx="4" fill="#F2C94C"/>
+  <text x="600" y="330" text-anchor="middle" class="sans" font-size="17" font-weight="800" fill="#8F211A">RESEARCH → BUILD → EVALUATE → SHIP</text>
+</svg>

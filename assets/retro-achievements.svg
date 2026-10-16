@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+  <title id="title">Achievements</title>
+  <desc id="desc">Verified competition, sport, and leadership achievements.</desc>
+  <style>
+    .sans { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+  <rect width="1200" height="370" rx="10" fill="#C9362B"/>
+  <text x="42" y="64" class="sans" font-size="36" font-weight="800" fill="#F2C94C">ACHIEVEMENTS</text>
+  <path d="M300 103V330M600 103V330M900 103V330" stroke="#F2C94C" stroke-width="3"/>
+  <text x="42" y="164" class="sans" font-size="46" font-weight="800" fill="#F2C94C">TOP 0.5%</text>
+  <text x="42" y="205" class="sans" font-size="18" font-weight="700" fill="#FFF4CC">American Express</text>
+  <text x="42" y="235" class="sans" font-size="18" fill="#FFF4CC">Decision Science Competition</text>
+  <text x="42" y="265" class="sans" font-size="17" fill="#F2C94C">Among 6,500+ teams</text>
+  <text x="342" y="164" class="sans" font-size="46" font-weight="800" fill="#F2C94C">GOLD</text>
+  <text x="342" y="205" class="sans" font-size="18" font-weight="700" fill="#FFF4CC">Inter-IIT Aquatics</text>
+  <text x="342" y="235" class="sans" font-size="18" fill="#FFF4CC">Gold Medals</text>
+  <text x="642" y="164" class="sans" font-size="46" font-weight="800" fill="#F2C94C">120+</text>
+  <text x="642" y="205" class="sans" font-size="18" font-weight="700" fill="#FFF4CC">TFPS Governor</text>
+  <text x="642" y="235" class="sans" font-size="18" fill="#FFF4CC">Society Members</text>
+  <text x="942" y="164" class="sans" font-size="46" font-weight="800" fill="#F2C94C">₹5 LAKH</text>
+  <text x="942" y="205" class="sans" font-size="18" font-weight="700" fill="#FFF4CC">TFPS Governor</text>
+  <text x="942" y="235" class="sans" font-size="18" fill="#FFF4CC">Budget Stewardship</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">About Kanchan</title>
+  <desc id="desc">Education, research experience, and practical AI focus.</desc>
+  <style>
+    .sans { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+  <rect width="1200" height="360" rx="10" fill="#C9362B"/>
+  <text x="42" y="64" class="sans" font-size="34" font-weight="800" fill="#F2C94C">MECHANICAL ROOTS. PRACTICAL AI.</text>
+  <rect x="42" y="96" width="350" height="220" rx="6" fill="#B92F25" stroke="#F2C94C" stroke-width="3"/>
+  <rect x="425" y="96" width="350" height="220" rx="6" fill="#B92F25" stroke="#F2C94C" stroke-width="3"/>
+  <rect x="808" y="96" width="350" height="220" rx="6" fill="#B92F25" stroke="#F2C94C" stroke-width="3"/>
+  <text x="70" y="142" class="sans" font-size="18" font-weight="800" fill="#F2C94C">EDUCATION</text>
+  <text x="70" y="184" class="sans" font-size="27" font-weight="800" fill="#FFF4CC">IIT KHARAGPUR</text>
+  <text x="70" y="224" class="sans" font-size="18" fill="#FFF4CC">Fourth-Year Mechanical</text>
+  <text x="70" y="251" class="sans" font-size="18" fill="#FFF4CC">Engineering Student</text>
+  <text x="453" y="142" class="sans" font-size="18" font-weight="800" fill="#F2C94C">RESEARCH</text>
+  <text x="453" y="184" class="sans" font-size="27" font-weight="800" fill="#FFF4CC">ISI KOLKATA</text>
+  <text x="453" y="224" class="sans" font-size="18" fill="#FFF4CC">Remaining Useful Life</text>
+  <text x="453" y="251" class="sans" font-size="18" fill="#FFF4CC">Time-Series Reliability</text>
+  <text x="836" y="142" class="sans" font-size="18" font-weight="800" fill="#F2C94C">BUILD FOCUS</text>
+  <text x="836" y="184" class="sans" font-size="27" font-weight="800" fill="#FFF4CC">PRACTICAL AI</text>
+  <text x="836" y="224" class="sans" font-size="18" fill="#FFF4CC">LLMs · Agentic Workflows</text>
+  <text x="836" y="251" class="sans" font-size="18" fill="#FFF4CC">ML · Data Engineering</text>
+</svg>

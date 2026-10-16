@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Current projects</title>
+  <desc id="desc">Four practical AI and data projects presented as simple retro cards.</desc>
+  <style>
+    .sans { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+  <rect width="1200" height="520" rx="10" fill="#C9362B"/>
+  <text x="42" y="66" class="sans" font-size="36" font-weight="800" fill="#F2C94C">CURRENT PROJECTS</text>
+  <rect x="42" y="102" width="535" height="170" rx="6" fill="#F2C94C"/>
+  <rect x="623" y="102" width="535" height="170" rx="6" fill="#F2C94C"/>
+  <rect x="42" y="306" width="535" height="170" rx="6" fill="#F2C94C"/>
+  <rect x="623" y="306" width="535" height="170" rx="6" fill="#F2C94C"/>
+  <text x="70" y="151" class="sans" font-size="18" font-weight="800" fill="#C9362B">01 · AGENTIC AI</text>
+  <text x="70" y="199" class="sans" font-size="30" font-weight="800" fill="#8F211A">FINANCIAL RESEARCH</text>
+  <text x="70" y="235" class="sans" font-size="18" fill="#8F211A">Multi-agent analysis · bull/bear debate</text>
+  <text x="651" y="151" class="sans" font-size="18" font-weight="800" fill="#C9362B">02 · DATA ENGINEERING</text>
+  <text x="651" y="199" class="sans" font-size="30" font-weight="800" fill="#8F211A">OPENAQ MEDALLION</text>
+  <text x="651" y="235" class="sans" font-size="18" fill="#8F211A">3.3M rows · auditable Bronze → Gold</text>
+  <text x="70" y="355" class="sans" font-size="18" font-weight="800" fill="#C9362B">03 · RETRIEVAL</text>
+  <text x="70" y="403" class="sans" font-size="30" font-weight="800" fill="#8F211A">INVESTMENT RAG</text>
+  <text x="70" y="439" class="sans" font-size="18" fill="#8F211A">Hybrid search · reranking · citations</text>
+  <text x="651" y="355" class="sans" font-size="18" font-weight="800" fill="#C9362B">04 · SIMULATION</text>
+  <text x="651" y="403" class="sans" font-size="30" font-weight="800" fill="#8F211A">CRICKET MONTE CARLO</text>
+  <text x="651" y="439" class="sans" font-size="18" fill="#8F211A">Ball-by-ball Markov match engine</text>
+</svg>
