@@ -1,57 +1,54 @@
 <div align="center">
 
-![Kanchan Potdar — neon glass command center](./assets/acid-command-center.svg)
+![Kanchan Potdar — retro profile banner](./assets/retro-hero.svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2400&pause=650&color=DBFE01&center=true&vCenter=true&repeat=true&width=900&height=46&lines=%3E+building+agentic+AI+systems...;%3E+researching+reliable+machine+learning...;%3E+engineering+data+into+products...)](https://git.io/typing-svg)
+**Building practical AI systems from research to production.**
 
 </div>
 
-## `// IDENTITY CORE`
+## Identity Core
 
-![Visual player profile](./assets/acid-player-card.svg)
+![Identity profile](./assets/retro-identity.svg)
 
 ---
 
-## `// ABOUT ME`
+## About Me
 
-![Education, research and practical AI focus](./assets/acid-about-me.svg)
+![Education, research and practical AI focus](./assets/retro-about.svg)
 
 I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building practical AI systems across LLMs, machine learning, and data engineering. Through research, internships, and independent projects—including work with the **Indian Statistical Institute, Kolkata** on Remaining Useful Life—I turn technical ideas into grounded agentic workflows, reliable models, APIs, and auditable data products.
 
 ---
 
-## `// ACTIVE QUEST BOARD`
+## Current Projects
 
-![Visual active quest board](./assets/acid-quest-board.svg)
+![Current AI and data projects](./assets/retro-projects.svg)
 
 <div align="center">
 
-[![Financial Research](https://img.shields.io/badge/OPEN-FINANCIAL_RESEARCH-DBFE01?style=for-the-badge&labelColor=FF2801)](https://github.com/kanchanpotdar/Financial-Research-Agent)
-[![OpenAQ](https://img.shields.io/badge/OPEN-OPENAQ_MEDALLION-DBFE01?style=for-the-badge&labelColor=FF2801)](https://github.com/kanchanpotdar/openaq_medallion)
-[![Investment RAG](https://img.shields.io/badge/OPEN-INVESTMENT_RAG-DBFE01?style=for-the-badge&labelColor=FF2801)](https://github.com/kanchanpotdar/cfa-rag)
-[![Cricket Monte Carlo](https://img.shields.io/badge/OPEN-CRICKET_SIMULATION-DBFE01?style=for-the-badge&labelColor=FF2801)](https://github.com/kanchanpotdar/Monte-Carlo-Simulation-of-Cricket-Match-Outcomes)
+[Financial Research Agent](https://github.com/kanchanpotdar/Financial-Research-Agent) · [OpenAQ Medallion](https://github.com/kanchanpotdar/openaq_medallion) · [Investment RAG](https://github.com/kanchanpotdar/cfa-rag) · [Cricket Simulation](https://github.com/kanchanpotdar/Monte-Carlo-Simulation-of-Cricket-Match-Outcomes)
 
 </div>
 
 ---
 
-## `// SKILL MATRIX`
+## Skills
 
-![Core, AI systems, ML and product skill matrix](./assets/acid-skill-matrix.svg)
-
----
-
-## `// ACHIEVEMENT VAULT`
-
-![Achievement vault](./assets/acid-achievement-vault.svg)
+![AI engineering, ML, data and product skills](./assets/retro-skills.svg)
 
 ---
 
-## `// CONTRIBUTION SIGNAL`
+## Achievements
+
+![Verified competition, sport and leadership achievements](./assets/retro-achievements.svg)
+
+---
+
+## Contribution Arcade
 
 <div align="center">
 
-### `PAC-MAN // LIVE CONTRIBUTION MAP`
+### Pac-Man Contribution Map
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kanchanpotdar/kanchanpotdar/output/pacman-contribution-graph-dark.svg">
@@ -63,7 +60,7 @@ I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building
 <summary><b>LOAD BONUS ARCADE MODES</b></summary>
 <br>
 
-<img src="https://raw.githubusercontent.com/kanchanpotdar/kanchanpotdar/output/neon-snake.svg" alt="Chartreuse snake eating Kanchan's contribution graph" />
+<img src="https://raw.githubusercontent.com/kanchanpotdar/kanchanpotdar/output/neon-snake.svg" alt="Snake moving through Kanchan's contribution graph" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kanchanpotdar/kanchanpotdar/output/breakout-contribution-graph-dark.svg">
@@ -75,8 +72,8 @@ I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building
 
 ---
 
-[![Explore repositories](https://img.shields.io/badge/EXPLORE_ALL_SYSTEMS-DBFE01?style=for-the-badge&logo=github&logoColor=EDF2F6&labelColor=FF2801)](https://github.com/kanchanpotdar?tab=repositories)
+[Explore all repositories](https://github.com/kanchanpotdar?tab=repositories)
 
-<sub>GLASS INTERFACE // ACID <code>#DBFE01</code> × SIGNAL <code>#FF2801</code> × ICE <code>#EDF2F6</code></sub>
+<sub>RETRO EDITION · RED × YELLOW</sub>
 
 </div>
