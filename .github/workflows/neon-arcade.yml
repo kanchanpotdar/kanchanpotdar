@@ -1,0 +1,43 @@
+name: Generate neon contribution arcade
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/neon-arcade.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build-arcade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Generate chartreuse snake
+        uses: Platane/snk/svg-only@v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/neon-snake.svg?color_snake=#DAF561&color_dots=#0A1426,#1E3658,#496980,#9EB65E,#DAF561
+
+      - name: Generate Pac-Man and Breakout boards
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: "pacman,breakout"
+          player_style: "aggressive"
+          hide_month_labels: "false"
+
+      - name: Publish arcade assets
+        uses: crazy-max/ghaction-github-pages@v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
