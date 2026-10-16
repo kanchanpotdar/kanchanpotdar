@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Kanchan Potdar — Applied AI command center</title>
+  <desc id="desc">A transparent glassmorphism hero in acid chartreuse, signal orange and ice white.</desc>
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EDF2F6" stop-opacity=".14"/><stop offset="1" stop-color="#DBFE01" stop-opacity=".025"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#DBFE01" stop-opacity=".45"/><stop offset="1" stop-color="#DBFE01" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#EDF2F6" stroke-opacity=".06"/></pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.label{font:800 16px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:3px}.tiny{font:700 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px}.blink{animation:blink 1.1s steps(2,end) infinite}.pulse{animation:pulse 2.2s ease-in-out infinite}.spin{transform-origin:971px 191px;animation:spin 18s linear infinite}.scan{animation:scan 8s ease-in-out infinite}@keyframes blink{50%{opacity:0}}@keyframes pulse{50%{opacity:.28}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes scan{0%,100%{transform:translateX(-30px);opacity:.15}50%{transform:translateX(34px);opacity:.8}}</style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="388" rx="34" fill="url(#glass)" stroke="#EDF2F6" stroke-opacity=".22"/>
+  <rect x="1" y="1" width="1198" height="388" rx="34" fill="url(#grid)"/>
+  <circle cx="1032" cy="190" r="182" fill="url(#halo)"/>
+  <path d="M-30 338C206 254 340 393 614 292S979 314 1230 211V430H-30Z" fill="#DBFE01" opacity=".075"/>
+  <path d="M-20 338C218 255 354 392 616 292S980 312 1222 218" fill="none" stroke="#FF2801" stroke-width="3" stroke-opacity=".9"/>
+  <g class="mono">
+    <rect x="48" y="43" width="718" height="302" rx="28" fill="url(#glass)" stroke="#DBFE01" stroke-opacity=".72"/>
+    <rect x="790" y="43" width="362" height="302" rx="28" fill="url(#glass)" stroke="#FF2801" stroke-opacity=".78"/>
+    <rect x="79" y="74" width="176" height="32" rx="16" fill="#DBFE01" fill-opacity=".14" stroke="#DBFE01"/>
+    <circle cx="99" cy="90" r="6" fill="#FF2801" class="pulse"/>
+    <text x="116" y="96" font-size="12" font-weight="900" letter-spacing="2" fill="#DBFE01">SYSTEM ONLINE</text>
+    <text x="78" y="174" font-size="66" font-weight="900" letter-spacing="2" fill="#EDF2F6">KANCHAN</text>
+    <text x="78" y="237" font-size="66" font-weight="900" letter-spacing="2" fill="#EDF2F6">POTDAR</text>
+    <text x="81" y="280" class="label" fill="#DBFE01">AGENTIC AI · DATA SYSTEMS · MACHINE LEARNING</text>
+    <rect x="81" y="300" width="610" height="2" fill="#FF2801" opacity=".95"/>
+    <text x="81" y="327" class="tiny" fill="#EDF2F6">BUILDING PRACTICAL, RELIABLE INTELLIGENCE</text>
+    <rect x="466" y="314" width="10" height="17" fill="#DBFE01" class="blink"/>
+  </g>
+  <g>
+    <circle cx="971" cy="191" r="105" fill="#DBFE01" fill-opacity=".045" stroke="#DBFE01" stroke-width="2"/>
+    <circle cx="971" cy="191" r="83" fill="#EDF2F6" fill-opacity=".04" stroke="#FF2801" stroke-opacity=".9"/>
+    <g class="spin"><circle cx="971" cy="191" r="96" fill="none" stroke="#DBFE01" stroke-width="6" stroke-dasharray="12 15" filter="url(#glow)"/></g>
+    <path d="M971 129L1025 160V222L971 253L917 222V160Z" fill="#EDF2F6" fill-opacity=".05" stroke="#DBFE01" stroke-width="2"/>
+    <path d="M939 178L971 159L1003 178V215L971 233L939 215Z" fill="none" stroke="#FF2801" stroke-width="3"/>
+    <circle cx="971" cy="191" r="9" fill="#FF2801" stroke="#EDF2F6" stroke-width="3"/>
+    <path d="M971 159V129M1003 178L1028 164M1003 215L1028 229M939 215L914 229M939 178L914 164M971 233V253" stroke="#DBFE01" stroke-width="3"/>
+  </g>
+  <g class="mono"><text x="826" y="83" class="tiny" fill="#FF2801">GLASS // AI CORE</text><text x="827" y="319" class="tiny" fill="#EDF2F6">IIT KHARAGPUR</text><circle cx="1117" cy="315" r="6" fill="#DBFE01" class="pulse"/></g>
+  <path d="M24 67V25H66M1134 25H1176V67M24 323V365H66M1134 365H1176V323" fill="none" stroke="#FF2801" stroke-width="3"/>
+  <rect x="8" y="8" width="1184" height="3" fill="#DBFE01" class="scan"/>
+</svg>
+
