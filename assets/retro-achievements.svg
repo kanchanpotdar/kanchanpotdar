@@ -1,23 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
-  <title id="title">Achievements</title>
-  <desc id="desc">Verified competition, sport, and leadership achievements.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Animated achievement scoreboard</title>
+  <desc id="desc">Verified competition, sport, and leadership metrics displayed as a high-impact retro scoreboard.</desc>
   <style>
     .sans { font-family: Arial, Helvetica, sans-serif; }
+    .score { animation: scorePop 5s ease-in-out infinite; transform-box:fill-box; transform-origin:left center; }.s2 { animation-delay:.35s }.s3 { animation-delay:.7s }.s4 { animation-delay:1.05s }
+    .fill { animation: fill 5.5s ease-in-out infinite; transform-origin:left; }.f2 { animation-delay:.35s }.f3 { animation-delay:.7s }.f4 { animation-delay:1.05s }
+    .lamp { animation: lamp 2.4s steps(1,end) infinite; }.l2{animation-delay:.4s}.l3{animation-delay:.8s}.crawl { animation: crawl 11s linear infinite; }
+    @keyframes scorePop { 0%,100%{transform:translateY(0)} 45%,53%{transform:translateY(-7px)} }
+    @keyframes fill { 0%,12%{transform:scaleX(.04)} 54%,82%{transform:scaleX(1)} 100%{transform:scaleX(.04)} }
+    @keyframes lamp { 0%,34%{opacity:.25} 35%,68%{opacity:1} 69%,100%{opacity:.25} }
+    @keyframes crawl { from{transform:translateX(0)} to{transform:translateX(-838px)} }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
   </style>
-  <rect width="1200" height="370" rx="10" fill="#C9362B"/>
-  <text x="42" y="64" class="sans" font-size="36" font-weight="800" fill="#F2C94C">ACHIEVEMENTS</text>
-  <path d="M300 103V330M600 103V330M900 103V330" stroke="#F2C94C" stroke-width="3"/>
-  <text x="42" y="164" class="sans" font-size="46" font-weight="800" fill="#F2C94C">TOP 0.5%</text>
-  <text x="42" y="205" class="sans" font-size="18" font-weight="700" fill="#FFF4CC">American Express</text>
-  <text x="42" y="235" class="sans" font-size="18" fill="#FFF4CC">Decision Science Competition</text>
-  <text x="42" y="265" class="sans" font-size="17" fill="#F2C94C">Among 6,500+ teams</text>
-  <text x="342" y="164" class="sans" font-size="46" font-weight="800" fill="#F2C94C">GOLD</text>
-  <text x="342" y="205" class="sans" font-size="18" font-weight="700" fill="#FFF4CC">Inter-IIT Aquatics</text>
-  <text x="342" y="235" class="sans" font-size="18" fill="#FFF4CC">Gold Medals</text>
-  <text x="642" y="164" class="sans" font-size="46" font-weight="800" fill="#F2C94C">120+</text>
-  <text x="642" y="205" class="sans" font-size="18" font-weight="700" fill="#FFF4CC">TFPS Governor</text>
-  <text x="642" y="235" class="sans" font-size="18" fill="#FFF4CC">Society Members</text>
-  <text x="942" y="164" class="sans" font-size="46" font-weight="800" fill="#F2C94C">₹5 LAKH</text>
-  <text x="942" y="205" class="sans" font-size="18" font-weight="700" fill="#FFF4CC">TFPS Governor</text>
-  <text x="942" y="235" class="sans" font-size="18" fill="#FFF4CC">Budget Stewardship</text>
+  <defs><clipPath id="crawlClip"><rect x="42" y="454" width="1116" height="38" rx="3"/></clipPath></defs>
+  <rect width="1200" height="520" rx="10" fill="#C9362B"/><text x="42" y="65" class="sans" font-size="36" font-weight="800" fill="#F2C94C">ACHIEVEMENT SCOREBOARD</text><text x="1158" y="63" text-anchor="end" class="sans" font-size="15" font-weight="800" fill="#FFF4CC" letter-spacing="1.8">VERIFIED HIGHLIGHTS</text><circle class="lamp" cx="1053" cy="91" r="7" fill="#F2C94C"/><circle class="lamp l2" cx="1080" cy="91" r="7" fill="#F2C94C"/><circle class="lamp l3" cx="1107" cy="91" r="7" fill="#F2C94C"/>
+  <rect x="42" y="112" width="535" height="146" rx="5" fill="#B92F25" stroke="#F2C94C" stroke-width="3"/><g class="score"><text x="70" y="176" class="sans" font-size="48" font-weight="800" fill="#F2C94C">TOP 0.5%</text></g><text x="70" y="211" class="sans" font-size="17" font-weight="700" fill="#FFF4CC">AMERICAN EXPRESS DECISION SCIENCE</text><text x="70" y="237" class="sans" font-size="15" fill="#F2C94C">6,500+ TEAMS · ABOVE 99.5% OF THE FIELD</text>
+  <rect x="623" y="112" width="535" height="146" rx="5" fill="#B92F25" stroke="#F2C94C" stroke-width="3"/><g class="score s2"><text x="651" y="176" class="sans" font-size="48" font-weight="800" fill="#F2C94C">GOLD</text></g><text x="651" y="211" class="sans" font-size="17" font-weight="700" fill="#FFF4CC">INTER-IIT AQUATICS</text><text x="651" y="237" class="sans" font-size="15" fill="#F2C94C">GOLD MEDALS · AQUATICS</text>
+  <rect x="42" y="282" width="535" height="146" rx="5" fill="#B92F25" stroke="#F2C94C" stroke-width="3"/><g class="score s3"><text x="70" y="346" class="sans" font-size="48" font-weight="800" fill="#F2C94C">120+</text></g><text x="70" y="381" class="sans" font-size="17" font-weight="700" fill="#FFF4CC">TFPS GOVERNOR · SOCIETY MEMBERS</text><rect x="70" y="402" width="470" height="9" fill="#8F211A"/><rect class="fill f3" x="70" y="402" width="470" height="9" fill="#F2C94C"/>
+  <rect x="623" y="282" width="535" height="146" rx="5" fill="#B92F25" stroke="#F2C94C" stroke-width="3"/><g class="score s4"><text x="651" y="346" class="sans" font-size="48" font-weight="800" fill="#F2C94C">₹5 LAKH</text></g><text x="651" y="381" class="sans" font-size="17" font-weight="700" fill="#FFF4CC">TFPS GOVERNOR · BUDGET STEWARDSHIP</text><rect x="651" y="402" width="470" height="9" fill="#8F211A"/><rect class="fill f4" x="651" y="402" width="470" height="9" fill="#F2C94C"/>
+  <rect x="42" y="454" width="1116" height="38" rx="3" fill="#F2C94C"/><g clip-path="url(#crawlClip)"><g class="crawl"><text x="62" y="479" class="sans" font-size="16" font-weight="800" fill="#8F211A" letter-spacing="1">COMPETE · LEAD · BUILD · DELIVER · COMPETE · LEAD · BUILD · DELIVER ·</text><text x="900" y="479" class="sans" font-size="16" font-weight="800" fill="#8F211A" letter-spacing="1">COMPETE · LEAD · BUILD · DELIVER · COMPETE · LEAD · BUILD · DELIVER ·</text><text x="1738" y="479" class="sans" font-size="16" font-weight="800" fill="#8F211A" letter-spacing="1">COMPETE · LEAD · BUILD · DELIVER ·</text></g></g>
 </svg>

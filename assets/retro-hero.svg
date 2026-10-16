@@ -1,13 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Kanchan Potdar profile banner</title>
-  <desc id="desc">A simple retro yellow and red banner for an applied AI builder.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Kanchan Potdar animated retro profile banner</title>
+  <desc id="desc">A flat red and yellow portfolio banner with subtle moving type, blinking registration marks, and an animated build ticker.</desc>
   <style>
     .sans { font-family: Arial, Helvetica, sans-serif; }
+    .tag { animation: tagFlash 3.2s steps(1,end) infinite; }
+    .name { animation: nameLift 5s ease-in-out infinite; transform-origin: 60px 178px; }
+    .rule { animation: ruleSweep 4s ease-in-out infinite; transform-origin: left; }
+    .dot { animation: dotBlink 2.4s steps(1,end) infinite; }
+    .dot.two { animation-delay: .4s; }
+    .dot.three { animation-delay: .8s; }
+    .ticker { animation: tickerShift 7s linear infinite; }
+    @keyframes tagFlash { 0%,84%,100%{fill:#C9362B} 88%,92%{fill:#8F211A} }
+    @keyframes nameLift { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+    @keyframes ruleSweep { 0%,12%{transform:scaleX(.08)} 48%,100%{transform:scaleX(1)} }
+    @keyframes dotBlink { 0%,30%{opacity:.2} 31%,70%{opacity:1} 71%,100%{opacity:.2} }
+    @keyframes tickerShift { from{transform:translateX(0)} to{transform:translateX(-838px)} }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
-  <rect width="1200" height="360" rx="10" fill="#F2C94C"/>
-  <rect x="38" y="36" width="170" height="42" rx="4" fill="#C9362B"/>
-  <text x="123" y="64" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#FFF4CC" letter-spacing="2">PORTFOLIO</text>
-  <text x="56" y="175" class="sans" font-size="78" font-weight="800" fill="#8F211A">KANCHAN POTDAR</text>
-  <text x="60" y="232" class="sans" font-size="28" font-weight="700" fill="#C9362B">Agentic AI · Data Systems · Machine Learning</text>
-  <text x="60" y="292" class="sans" font-size="22" font-weight="600" fill="#8F211A">Fourth-Year Mechanical Engineering Student · IIT Kharagpur</text>
+  <defs><clipPath id="tickerClip"><rect x="60" y="319" width="1080" height="34" rx="3"/></clipPath></defs>
+  <rect width="1200" height="380" rx="10" fill="#F2C94C"/>
+  <rect class="tag" x="38" y="34" width="170" height="42" rx="4" fill="#C9362B"/>
+  <text x="123" y="62" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#FFF4CC" letter-spacing="2">PORTFOLIO</text>
+  <circle class="dot" cx="1082" cy="54" r="8" fill="#C9362B"/>
+  <circle class="dot two" cx="1110" cy="54" r="8" fill="#C9362B"/>
+  <circle class="dot three" cx="1138" cy="54" r="8" fill="#C9362B"/>
+  <g class="name"><text x="56" y="178" class="sans" font-size="78" font-weight="800" fill="#8F211A">KANCHAN POTDAR</text></g>
+  <rect class="rule" x="60" y="196" width="740" height="7" fill="#C9362B"/>
+  <text x="60" y="250" class="sans" font-size="29" font-weight="700" fill="#C9362B">Agentic AI · Data Systems · Machine Learning</text>
+  <text x="60" y="294" class="sans" font-size="21" font-weight="600" fill="#8F211A">Fourth-Year Mechanical Engineering Student · IIT Kharagpur</text>
+  <rect x="60" y="319" width="1080" height="34" rx="3" fill="#C9362B"/>
+  <g clip-path="url(#tickerClip)"><g class="ticker" fill="#FFF4CC">
+    <text x="82" y="342" class="sans" font-size="16" font-weight="800" letter-spacing="1.5">RESEARCH → BUILD → EVALUATE → SHIP · PRACTICAL AI, BUILT TO WORK ·</text>
+    <text x="920" y="342" class="sans" font-size="16" font-weight="800" letter-spacing="1.5">RESEARCH → BUILD → EVALUATE → SHIP · PRACTICAL AI, BUILT TO WORK ·</text>
+    <text x="1758" y="342" class="sans" font-size="16" font-weight="800" letter-spacing="1.5">RESEARCH → BUILD → EVALUATE → SHIP ·</text>
+  </g></g>
 </svg>

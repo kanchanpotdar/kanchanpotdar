@@ -1,28 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-  <title id="title">Skills</title>
-  <desc id="desc">AI engineering, agentic systems, machine learning, data engineering, and product skills.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Animated skills matrix</title>
+  <desc id="desc">AI engineering, agentic systems, machine learning, data engineering, and product skills with simple animated type bars.</desc>
   <style>
     .sans { font-family: Arial, Helvetica, sans-serif; }
+    .pulse { animation: pulse 4s ease-in-out infinite; transform-origin:left; }.d2 { animation-delay:.45s }.d3 { animation-delay:.9s }.d4 { animation-delay:1.35s }
+    .scan { animation: scan 5s linear infinite; }.tape { animation: tape 11s linear infinite; }
+    @keyframes pulse { 0%,100%{opacity:.32;transform:scaleX(.18)} 45%,70%{opacity:1;transform:scaleX(1)} }
+    @keyframes scan { from{transform:translateX(-40px)} to{transform:translateX(1180px)} }
+    @keyframes tape { from{transform:translateX(0)} to{transform:translateX(-860px)} }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
   </style>
-  <rect width="1200" height="390" rx="10" fill="#C9362B"/>
-  <text x="42" y="64" class="sans" font-size="36" font-weight="800" fill="#F2C94C">SKILLS</text>
-  <path d="M300 102V344M600 102V344M900 102V344" stroke="#F2C94C" stroke-width="3"/>
-  <text x="42" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">AI ENGINEERING</text>
-  <text x="42" y="179" class="sans" font-size="18" fill="#FFF4CC">Python · PyTorch</text>
-  <text x="42" y="213" class="sans" font-size="18" fill="#FFF4CC">LLMs · Deep Learning</text>
-  <text x="42" y="247" class="sans" font-size="18" fill="#FFF4CC">NLP · Computer Vision</text>
-  <text x="342" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">AGENTIC SYSTEMS</text>
-  <text x="342" y="179" class="sans" font-size="18" fill="#FFF4CC">LangGraph · RAG</text>
-  <text x="342" y="213" class="sans" font-size="18" fill="#FFF4CC">Embeddings · Workflows</text>
-  <text x="342" y="247" class="sans" font-size="18" fill="#FFF4CC">Structured Outputs</text>
-  <text x="642" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">MACHINE LEARNING</text>
-  <text x="642" y="179" class="sans" font-size="18" fill="#FFF4CC">Machine Learning</text>
-  <text x="642" y="213" class="sans" font-size="18" fill="#FFF4CC">Time-Series Modelling</text>
-  <text x="642" y="247" class="sans" font-size="18" fill="#FFF4CC">Model Evaluation</text>
-  <text x="942" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">DATA &amp; PRODUCT</text>
-  <text x="942" y="179" class="sans" font-size="18" fill="#FFF4CC">FastAPI · SQL</text>
-  <text x="942" y="213" class="sans" font-size="18" fill="#FFF4CC">PostgreSQL · Data</text>
-  <text x="942" y="247" class="sans" font-size="18" fill="#FFF4CC">Azure AI · Product</text>
-  <rect x="42" y="302" width="1116" height="42" rx="4" fill="#F2C94C"/>
-  <text x="600" y="330" text-anchor="middle" class="sans" font-size="17" font-weight="800" fill="#8F211A">RESEARCH → BUILD → EVALUATE → SHIP</text>
+  <defs><clipPath id="tapeClip"><rect x="42" y="338" width="1116" height="48" rx="4"/></clipPath></defs>
+  <rect width="1200" height="420" rx="10" fill="#C9362B"/><text x="42" y="64" class="sans" font-size="36" font-weight="800" fill="#F2C94C">SKILLS</text><path d="M300 102V312M600 102V312M900 102V312" stroke="#F2C94C" stroke-width="3"/><rect class="scan" x="0" y="93" width="36" height="8" fill="#FFF4CC"/>
+  <g><text x="42" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">AI ENGINEERING</text><text x="42" y="179" class="sans" font-size="18" fill="#FFF4CC">Python · PyTorch</text><text x="42" y="213" class="sans" font-size="18" fill="#FFF4CC">LLMs · Deep Learning</text><text x="42" y="247" class="sans" font-size="18" fill="#FFF4CC">NLP · Computer Vision</text><rect x="42" y="278" width="220" height="7" fill="#8F211A"/><rect class="pulse" x="42" y="278" width="220" height="7" fill="#F2C94C"/></g>
+  <g><text x="342" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">AGENTIC SYSTEMS</text><text x="342" y="179" class="sans" font-size="18" fill="#FFF4CC">LangGraph · RAG</text><text x="342" y="213" class="sans" font-size="18" fill="#FFF4CC">Embeddings · Workflows</text><text x="342" y="247" class="sans" font-size="18" fill="#FFF4CC">Structured Outputs</text><rect x="342" y="278" width="220" height="7" fill="#8F211A"/><rect class="pulse d2" x="342" y="278" width="220" height="7" fill="#F2C94C"/></g>
+  <g><text x="642" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">MACHINE LEARNING</text><text x="642" y="179" class="sans" font-size="18" fill="#FFF4CC">Machine Learning</text><text x="642" y="213" class="sans" font-size="18" fill="#FFF4CC">Time-Series Modelling</text><text x="642" y="247" class="sans" font-size="18" fill="#FFF4CC">Model Evaluation</text><rect x="642" y="278" width="220" height="7" fill="#8F211A"/><rect class="pulse d3" x="642" y="278" width="220" height="7" fill="#F2C94C"/></g>
+  <g><text x="942" y="133" class="sans" font-size="22" font-weight="800" fill="#F2C94C">DATA &amp; PRODUCT</text><text x="942" y="179" class="sans" font-size="18" fill="#FFF4CC">FastAPI · SQL</text><text x="942" y="213" class="sans" font-size="18" fill="#FFF4CC">PostgreSQL · Data</text><text x="942" y="247" class="sans" font-size="18" fill="#FFF4CC">Azure AI · Product</text><rect x="942" y="278" width="180" height="7" fill="#8F211A"/><rect class="pulse d4" x="942" y="278" width="180" height="7" fill="#F2C94C"/></g>
+  <rect x="42" y="338" width="1116" height="48" rx="4" fill="#F2C94C"/><g clip-path="url(#tapeClip)"><g class="tape"><text x="90" y="369" class="sans" font-size="18" font-weight="800" fill="#8F211A">RESEARCH → BUILD → EVALUATE → SHIP · RESEARCH → BUILD → EVALUATE → SHIP ·</text><text x="950" y="369" class="sans" font-size="18" font-weight="800" fill="#8F211A">RESEARCH → BUILD → EVALUATE → SHIP · RESEARCH → BUILD → EVALUATE → SHIP ·</text><text x="1810" y="369" class="sans" font-size="18" font-weight="800" fill="#8F211A">RESEARCH → BUILD → EVALUATE → SHIP ·</text></g></g>
 </svg>
