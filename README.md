@@ -1,6 +1,6 @@
 <div align="center">
 
-![Kanchan Potdar â€” neon glass command center](./assets/neon-command-center.svg)
+![Kanchan Potdar — neon glass command center](./assets/neon-command-center.svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2400&pause=650&color=DAF561&center=true&vCenter=true&repeat=true&width=900&height=46&lines=%3E+building+grounded+AI+systems...;%3E+engineering+auditable+data...;%3E+turning+research+into+products...)](https://git.io/typing-svg)
 
@@ -71,6 +71,6 @@
 
 [![Explore repositories](https://img.shields.io/badge/EXPLORE_ALL_SYSTEMS-DAF561?style=for-the-badge&logo=github&logoColor=132441)](https://github.com/kanchanpotdar?tab=repositories)
 
-<sub>GLASS INTERFACE // MIDNIGHT BLUE <code>#132441</code> Ã— CHARTREUSE <code>#DAF561</code></sub>
+<sub>GLASS INTERFACE // MIDNIGHT BLUE <code>#132441</code> × CHARTREUSE <code>#DAF561</code></sub>
 
 </div>
