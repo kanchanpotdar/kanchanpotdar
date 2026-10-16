@@ -1,4 +1,4 @@
-name: Generate neon contribution arcade
+name: Generate retro contribution arcade
 
 on:
   schedule:
@@ -18,12 +18,12 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Generate acid arcade snake
+      - name: Generate retro arcade snake
         uses: Platane/snk/svg-only@v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/neon-snake.svg?color_snake=#DBFE01&color_dots=#EDF2F6,#EDF2F6,#DBFE01,#FF2801,#DBFE01
+            dist/neon-snake.svg?color_snake=#F2C94C&color_dots=#FFF4CC,#FFF4CC,#F2C94C,#C9362B,#F2C94C
 
       - name: Generate Pac-Man and Breakout boards
         uses: abozanona/pacman-contribution-graph@main
