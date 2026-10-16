@@ -1,6 +1,6 @@
 <div align="center">
 
-![Kanchan Potdar — neon glass command center](./assets/neon-command-center.svg)
+![Kanchan Potdar — neon glass command center](./assets/acid-command-center.svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2400&pause=650&color=DBFE01&center=true&vCenter=true&repeat=true&width=900&height=46&lines=%3E+building+agentic+AI+systems...;%3E+researching+reliable+machine+learning...;%3E+engineering+data+into+products...)](https://git.io/typing-svg)
 
@@ -8,13 +8,13 @@
 
 ## `// IDENTITY CORE`
 
-![Visual player profile](./assets/glass-player-card.svg)
+![Visual player profile](./assets/acid-player-card.svg)
 
 ---
 
 ## `// ABOUT ME`
 
-![Education, research and practical AI focus](./assets/about-me.svg)
+![Education, research and practical AI focus](./assets/acid-about-me.svg)
 
 I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building practical AI systems across LLMs, machine learning, and data engineering. Through research, internships, and independent projects—including work with the **Indian Statistical Institute, Kolkata** on Remaining Useful Life—I turn technical ideas into grounded agentic workflows, reliable models, APIs, and auditable data products.
 
@@ -22,7 +22,7 @@ I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building
 
 ## `// ACTIVE QUEST BOARD`
 
-![Visual active quest board](./assets/visual-quest-board.svg)
+![Visual active quest board](./assets/acid-quest-board.svg)
 
 <div align="center">
 
@@ -37,13 +37,13 @@ I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building
 
 ## `// SKILL MATRIX`
 
-![Core, AI systems, ML and product skill matrix](./assets/glass-skill-matrix.svg)
+![Core, AI systems, ML and product skill matrix](./assets/acid-skill-matrix.svg)
 
 ---
 
 ## `// ACHIEVEMENT VAULT`
 
-![Achievement vault](./assets/achievement-vault.svg)
+![Achievement vault](./assets/acid-achievement-vault.svg)
 
 ---
 
