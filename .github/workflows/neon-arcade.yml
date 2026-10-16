@@ -18,12 +18,12 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Generate chartreuse snake
+      - name: Generate acid arcade snake
         uses: Platane/snk/svg-only@v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/neon-snake.svg?color_snake=#DAF561&color_dots=#0A1426,#1E3658,#496980,#9EB65E,#DAF561
+            dist/neon-snake.svg?color_snake=#DBFE01&color_dots=#EDF2F6,#EDF2F6,#DBFE01,#FF2801,#DBFE01
 
       - name: Generate Pac-Man and Breakout boards
         uses: abozanona/pacman-contribution-graph@main
