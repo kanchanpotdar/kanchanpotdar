@@ -50,6 +50,8 @@ I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building
 
 ### Pac-Man Contribution Map
 
+<sub>LIVE CONTRIBUTION GAME · AUTO-UPDATED DAILY</sub>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kanchanpotdar/kanchanpotdar/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kanchanpotdar/kanchanpotdar/output/pacman-contribution-graph.svg">
@@ -57,7 +59,7 @@ I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building
 </picture>
 
 <details>
-<summary><b>LOAD BONUS ARCADE MODES</b></summary>
+<summary><b>LOAD SNAKE + BREAKOUT</b></summary>
 <br>
 
 <img src="https://raw.githubusercontent.com/kanchanpotdar/kanchanpotdar/output/neon-snake.svg" alt="Snake moving through Kanchan's contribution graph" />
