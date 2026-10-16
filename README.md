@@ -2,7 +2,7 @@
 
 ![Kanchan Potdar — neon glass command center](./assets/neon-command-center.svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2400&pause=650&color=DAF561&center=true&vCenter=true&repeat=true&width=900&height=46&lines=%3E+building+grounded+AI+systems...;%3E+engineering+auditable+data...;%3E+turning+research+into+products...)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2400&pause=650&color=DBFE01&center=true&vCenter=true&repeat=true&width=900&height=46&lines=%3E+building+agentic+AI+systems...;%3E+researching+reliable+machine+learning...;%3E+engineering+data+into+products...)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,16 +12,24 @@
 
 ---
 
+## `// ABOUT ME`
+
+![Education, research and practical AI focus](./assets/about-me.svg)
+
+I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building practical AI systems across LLMs, machine learning, and data engineering. Through research, internships, and independent projects—including work with the **Indian Statistical Institute, Kolkata** on Remaining Useful Life—I turn technical ideas into grounded agentic workflows, reliable models, APIs, and auditable data products.
+
+---
+
 ## `// ACTIVE QUEST BOARD`
 
 ![Visual active quest board](./assets/visual-quest-board.svg)
 
 <div align="center">
 
-[![Financial Research](https://img.shields.io/badge/OPEN-FINANCIAL_RESEARCH-DAF561?style=for-the-badge&labelColor=132441)](https://github.com/kanchanpotdar/Financial-Research-Agent)
-[![OpenAQ](https://img.shields.io/badge/OPEN-OPENAQ_MEDALLION-DAF561?style=for-the-badge&labelColor=132441)](https://github.com/kanchanpotdar/openaq_medallion)
-[![Investment RAG](https://img.shields.io/badge/OPEN-INVESTMENT_RAG-DAF561?style=for-the-badge&labelColor=132441)](https://github.com/kanchanpotdar/cfa-rag)
-[![Cricket Monte Carlo](https://img.shields.io/badge/OPEN-CRICKET_SIMULATION-DAF561?style=for-the-badge&labelColor=132441)](https://github.com/kanchanpotdar/Monte-Carlo-Simulation-of-Cricket-Match-Outcomes)
+[![Financial Research](https://img.shields.io/badge/OPEN-FINANCIAL_RESEARCH-DBFE01?style=for-the-badge&labelColor=FF2801)](https://github.com/kanchanpotdar/Financial-Research-Agent)
+[![OpenAQ](https://img.shields.io/badge/OPEN-OPENAQ_MEDALLION-DBFE01?style=for-the-badge&labelColor=FF2801)](https://github.com/kanchanpotdar/openaq_medallion)
+[![Investment RAG](https://img.shields.io/badge/OPEN-INVESTMENT_RAG-DBFE01?style=for-the-badge&labelColor=FF2801)](https://github.com/kanchanpotdar/cfa-rag)
+[![Cricket Monte Carlo](https://img.shields.io/badge/OPEN-CRICKET_SIMULATION-DBFE01?style=for-the-badge&labelColor=FF2801)](https://github.com/kanchanpotdar/Monte-Carlo-Simulation-of-Cricket-Match-Outcomes)
 
 </div>
 
@@ -67,8 +75,8 @@
 
 ---
 
-[![Explore repositories](https://img.shields.io/badge/EXPLORE_ALL_SYSTEMS-DAF561?style=for-the-badge&logo=github&logoColor=132441)](https://github.com/kanchanpotdar?tab=repositories)
+[![Explore repositories](https://img.shields.io/badge/EXPLORE_ALL_SYSTEMS-DBFE01?style=for-the-badge&logo=github&logoColor=EDF2F6&labelColor=FF2801)](https://github.com/kanchanpotdar?tab=repositories)
 
-<sub>GLASS INTERFACE // MIDNIGHT BLUE <code>#132441</code> × CHARTREUSE <code>#DAF561</code></sub>
+<sub>GLASS INTERFACE // ACID <code>#DBFE01</code> × SIGNAL <code>#FF2801</code> × ICE <code>#EDF2F6</code></sub>
 
 </div>
