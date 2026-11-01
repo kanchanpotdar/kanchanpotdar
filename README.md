@@ -44,6 +44,22 @@ I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building
 
 ---
 
+## Commit Koi
+
+<div align="center">
+
+<img src="./koi/koi.gif" width="256" height="256" alt="Kanchan's gold koi, growing with cumulative public commits" />
+
+**A little more code. A little bigger koi.**
+
+<sub>GROWS WITH MY PUBLIC COMMITS · UPDATED DAILY</sub>
+
+[How it grows](./docs/commit-koi.md) · [Latest commit count](./koi/stats.json) · [Powered by Git Koi](https://github.com/yalongwastaken/git-koi)
+
+</div>
+
+---
+
 ## Contribution Arcade
 
 <div align="center">
