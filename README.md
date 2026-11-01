@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="Kanchan Potdar — speech AI, agentic systems, and data engineering at IIT Kharagpur" />
+<img src="./assets/koi-lab/banner.svg" width="100%" alt="Kanchan Potdar — Koi Research Lab: speech AI, agentic systems, and data engineering" />
 
 **From careful datasets to working AI systems.**
 
-[Current work](#user-content-current-work) · [Selected builds](#user-content-selected-builds) · [Beyond the code](#user-content-beyond-the-code) · [My koi pond](#user-content-my-koi-pond)
+[Current work](#user-content-current-work) · [My koi pond](#user-content-my-koi-pond) · [Selected builds](#user-content-selected-builds) · [Beyond the code](#user-content-beyond-the-code)
 
 </div>
 
@@ -16,27 +16,57 @@ I enjoy the work between a promising idea and a result I can trust: understandin
 
 ## Current work
 
-### [Nyishi speech-to-IPA research](https://github.com/kanchanpotdar/BTP)
+<!-- PROJECT_CARDS:START -->
+<p align="center">
+<a href="https://github.com/kanchanpotdar/BTP"><img src="./assets/koi-lab/nyishi-asr.svg" width="420" alt="Nyishi speech-to-IPA — research. Smoke checks complete · validation CER next." /></a>
+<a href="https://github.com/kanchanpotdar/voicenterprise"><img src="./assets/koi-lab/voicenterprise.svg" width="420" alt="VoiceEnterprise — prototype. Focus: retrieval, evaluation &amp; voice latency." /></a>
+<a href="https://github.com/kanchanpotdar/My-ChatGPT-Skills"><img src="./assets/koi-lab/chatgpt-skills.svg" width="420" alt="My ChatGPT Skills — ongoing collection. Clearer instructions · useful outputs." /></a>
+<a href="https://github.com/kanchanpotdar/BeyondBot-Assignment"><img src="./assets/koi-lab/beyondbot.svg" width="420" alt="BeyondBot TDS Review Agent — published prototype. Partial ledger review · explicit coverage." /></a>
+</p>
+
+<details>
+<summary><b>Project notes &amp; current status</b></summary>
+
+### [Nyishi speech-to-IPA](https://github.com/kanchanpotdar/BTP)
 
 My bachelor's thesis project: a reproducible speech recognition pipeline for Nyishi Narration data using IPA transcriptions and IPA-Whisper. The work covers audio curation, careful transcript handling, and speaker/session separation.
 
-**Where it stands:** splits frozen; processor and model smoke checks complete. A zero-shot validation CER baseline is next, before fine-tuning and final test evaluation.
+**Current stage:** Splits are frozen; processor and model smoke checks are complete. A zero-shot validation CER baseline is next, before fine-tuning and final test evaluation. The engineering checks are not a held-out accuracy result.
 
 ### [VoiceEnterprise](https://github.com/kanchanpotdar/voicenterprise)
 
 An enterprise RAG and voice prototype bringing together hybrid retrieval, cited answers, and a spoken interface. I'm interested in how retrieval choices, evidence handling, and latency affect the system people actually use.
 
-**Focus:** retrieval, evaluation, and the path from a spoken question to a grounded response.
+**Current stage:** Prototype work focused on retrieval, evaluation, and the path from a spoken question to a grounded response.
 
 ### [My ChatGPT Skills](https://github.com/kanchanpotdar/My-ChatGPT-Skills)
 
 A growing collection of reusable AI workflows: prompt optimization, visual explanations, idea refinement, research reports, and active-recall tutoring. This is where I turn useful ways of working into repeatable tools.
 
-**Focus:** clearer instructions, useful outputs, and workflows that improve through use.
+**Current stage:** An ongoing collection refined through use, with a focus on clearer instructions and useful outputs.
 
-## Recently built
+### [BeyondBot TDS Review Agent](https://github.com/kanchanpotdar/BeyondBot-Assignment)
 
-**[BeyondBot TDS Review Agent](https://github.com/kanchanpotdar/BeyondBot-Assignment)** — a Python CLI prototype combining LLM-led investigation with deterministic calculations, evidence validation, and voucher-level coverage tracking. Its published evaluation covers part of the ledger; it is a prototype with explicit review limits.
+A Python CLI prototype combining LLM-led investigation with deterministic calculations, evidence validation, and voucher-level coverage tracking.
+
+**Current stage:** Its published evaluation covers part of the ledger. This is a prototype with explicit review limits, not a completed financial review.
+
+</details>
+<!-- PROJECT_CARDS:END -->
+
+## My koi pond
+
+<img src="./koi/pond.gif" width="100%" alt="Kanchan's gold koi swimming in a full-width blue pond, growing with cumulative public commits" />
+
+<div align="center">
+
+**A little more code. A little bigger koi.**
+
+<sub>FED BY PUBLIC COMMITS · REFRESHED DAILY</sub>
+
+[How it grows](./docs/commit-koi.md) · [Latest commit count](./koi/stats.json) · [Git Koi](https://github.com/yalongwastaken/git-koi)
+
+</div>
 
 ## Selected builds
 
@@ -64,20 +94,6 @@ I care about **data provenance, reproducible experiments, and honest evaluation*
 The same mix of patience, iteration, and teamwork shows up in how I build.
 
 ---
-
-## My koi pond
-
-<img src="./koi/pond.gif" width="100%" alt="Kanchan's gold koi swimming in a full-width blue pond, growing with cumulative public commits" />
-
-<div align="center">
-
-**A little more code. A little bigger koi.**
-
-<sub>FED BY PUBLIC COMMITS · REFRESHED DAILY</sub>
-
-[How it grows](./docs/commit-koi.md) · [Latest commit count](./koi/stats.json) · [Git Koi](https://github.com/yalongwastaken/git-koi)
-
-</div>
 
 <details>
 <summary><b>After hours: the contribution arcade</b></summary>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="360" viewBox="0 0 840 360" role="img" aria-labelledby="title desc">
+<title id="title">BeyondBot TDS Review Agent</title>
+<desc id="desc">Evidence-led review with deterministic calculations and coverage tracking. Partial ledger review · explicit coverage</desc>
+<defs><clipPath id="card"><rect x="1" y="1" width="838" height="358" rx="24"/></clipPath></defs>
+<rect x="1" y="1" width="838" height="358" rx="24" fill="#223249" stroke="#414B58" stroke-width="2"/>
+<rect width="840" height="6" fill="#E6C384" clip-path="url(#card)"/>
+<g transform="translate(34 24)" fill="none" stroke="#E6C384" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="0" width="28" height="37" rx="4"/><path d="M8 7h18M8 15h3m7 0h3M8 23h3m7 0h3M8 31h3m7 0h3"/></g>
+<text x="84" y="52" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#E6C384" letter-spacing="2">PUBLISHED PROTOTYPE</text>
+<text x="34" y="119" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="600" fill="#DCD7BA">BeyondBot TDS Review Agent</text>
+<text x="34" y="175" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#C8C4AD">Evidence-led review with deterministic</text>
+<text x="34" y="216" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#C8C4AD">calculations and coverage tracking.</text>
+<text x="34" y="274" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#DCD7BA">Partial ledger review · explicit coverage</text>
+<text x="34" y="326" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#E6C384" letter-spacing="1">PYTHON · LLM TOOLS</text>
+</svg>

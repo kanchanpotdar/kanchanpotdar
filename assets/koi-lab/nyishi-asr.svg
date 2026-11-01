@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="360" viewBox="0 0 840 360" role="img" aria-labelledby="title desc">
+<title id="title">Nyishi speech-to-IPA</title>
+<desc id="desc">Narration data curation and reproducible Whisper baselines for speech-to-IPA. Smoke checks complete · validation CER next</desc>
+<defs><clipPath id="card"><rect x="1" y="1" width="838" height="358" rx="24"/></clipPath></defs>
+<rect x="1" y="1" width="838" height="358" rx="24" fill="#223249" stroke="#414B58" stroke-width="2"/>
+<rect width="840" height="6" fill="#E6C384" clip-path="url(#card)"/>
+<g transform="translate(34 24)" fill="none" stroke="#E6C384" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 15v6m6-14v22m6-29v36m6-26v16m6-22v28m6-18v8"/></g>
+<text x="84" y="52" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#E6C384" letter-spacing="2">RESEARCH</text>
+<text x="34" y="119" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="600" fill="#DCD7BA">Nyishi speech-to-IPA</text>
+<text x="34" y="175" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#C8C4AD">Narration data curation and reproducible</text>
+<text x="34" y="216" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#C8C4AD">Whisper baselines for speech-to-IPA.</text>
+<text x="34" y="274" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#DCD7BA">Smoke checks complete · validation CER next</text>
+<text x="34" y="326" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#E6C384" letter-spacing="1">PYTHON · PYTORCH · IPA</text>
+</svg>

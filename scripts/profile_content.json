@@ -1,0 +1,66 @@
+{
+  "name": "Kanchan Potdar",
+  "education": "IIT KHARAGPUR / MECHANICAL ENGINEERING",
+  "focus": "Speech AI · Agentic systems · Data engineering",
+  "tagline": "Mechanical roots. Applied AI. Evidence that matters.",
+  "palette": {
+    "background": "#1F1F28",
+    "panel": "#223249",
+    "text": "#DCD7BA",
+    "muted": "#C8C4AD",
+    "line": "#414B58",
+    "accent": "#E6C384",
+    "wave": "#7FB4CA"
+  },
+  "card_radius_at_420px": 12,
+  "projects": [
+    {
+      "id": "nyishi-asr",
+      "title": "Nyishi speech-to-IPA",
+      "category": "RESEARCH",
+      "url": "https://github.com/kanchanpotdar/BTP",
+      "icon": "speech",
+      "summary": ["Narration data curation and reproducible", "Whisper baselines for speech-to-IPA."],
+      "stage": "Smoke checks complete · validation CER next",
+      "stack": "PYTHON · PYTORCH · IPA",
+      "notes": "My bachelor's thesis project: a reproducible speech recognition pipeline for Nyishi Narration data using IPA transcriptions and IPA-Whisper. The work covers audio curation, careful transcript handling, and speaker/session separation.",
+      "status_detail": "Splits are frozen; processor and model smoke checks are complete. A zero-shot validation CER baseline is next, before fine-tuning and final test evaluation. The engineering checks are not a held-out accuracy result."
+    },
+    {
+      "id": "voicenterprise",
+      "title": "VoiceEnterprise",
+      "category": "PROTOTYPE",
+      "url": "https://github.com/kanchanpotdar/voicenterprise",
+      "icon": "voice",
+      "summary": ["Hybrid retrieval, cited answers,", "and a spoken interface."],
+      "stage": "Focus: retrieval, evaluation & voice latency",
+      "stack": "RAG · QDRANT · VOICE",
+      "notes": "An enterprise RAG and voice prototype bringing together hybrid retrieval, cited answers, and a spoken interface. I'm interested in how retrieval choices, evidence handling, and latency affect the system people actually use.",
+      "status_detail": "Prototype work focused on retrieval, evaluation, and the path from a spoken question to a grounded response."
+    },
+    {
+      "id": "chatgpt-skills",
+      "title": "My ChatGPT Skills",
+      "category": "ONGOING COLLECTION",
+      "url": "https://github.com/kanchanpotdar/My-ChatGPT-Skills",
+      "icon": "book",
+      "summary": ["Useful AI workflows, turned into", "repeatable tools."],
+      "stage": "Clearer instructions · useful outputs",
+      "stack": "PROMPTS · WORKFLOWS",
+      "notes": "A growing collection of reusable AI workflows: prompt optimization, visual explanations, idea refinement, research reports, and active-recall tutoring. This is where I turn useful ways of working into repeatable tools.",
+      "status_detail": "An ongoing collection refined through use, with a focus on clearer instructions and useful outputs."
+    },
+    {
+      "id": "beyondbot",
+      "title": "BeyondBot TDS Review Agent",
+      "category": "PUBLISHED PROTOTYPE",
+      "url": "https://github.com/kanchanpotdar/BeyondBot-Assignment",
+      "icon": "calculator",
+      "summary": ["Evidence-led review with deterministic", "calculations and coverage tracking."],
+      "stage": "Partial ledger review · explicit coverage",
+      "stack": "PYTHON · LLM TOOLS",
+      "notes": "A Python CLI prototype combining LLM-led investigation with deterministic calculations, evidence validation, and voucher-level coverage tracking.",
+      "status_detail": "Its published evaluation covers part of the ledger. This is a prototype with explicit review limits, not a completed financial review."
+    }
+  ]
+}
