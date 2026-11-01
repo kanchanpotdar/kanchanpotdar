@@ -48,7 +48,7 @@ I’m a **Fourth-Year Mechanical Engineering Student at IIT Kharagpur** building
 
 <div align="center">
 
-<img src="./koi/koi.gif" width="100%" alt="Kanchan's gold koi in a wide blue pond, growing with cumulative public commits" />
+<img src="./koi/pond.gif" width="100%" alt="Kanchan's gold koi in a wide blue pond, growing with cumulative public commits" />
 
 **A little more code. A little bigger koi.**
 

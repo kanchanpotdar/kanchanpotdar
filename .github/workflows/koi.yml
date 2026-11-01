@@ -55,10 +55,12 @@ jobs:
             --output "$RUNNER_TEMP/koi-commits.json" --summary koi/stats.json
           git-koi render "$RUNNER_TEMP/koi-commits.json" --output-dir koi --body gold
           "$RUNNER_TEMP/koi-python/bin/python" scripts/koi_background.py koi
+          mv koi/koi.gif koi/pond.gif
+          mv koi/koi.png koi/pond.png
 
       - name: Publish changed koi assets as the bot
         run: |
-          git add koi/koi.gif koi/koi.png koi/stats.json
+          git add koi/pond.gif koi/pond.png koi/stats.json
           if git diff --cached --quiet; then
             echo "The koi is unchanged."
             exit 0
