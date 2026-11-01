@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Kanchan Potdar — engineering and research</title>
+  <desc id="desc">A warm cream and ocean blue banner. Kanchan works on speech, agents, and data systems at IIT Kharagpur. A teal network connects the three areas.</desc>
+  <defs><clipPath id="frame"><rect width="1200" height="360" rx="16"/></clipPath></defs>
+  <g clip-path="url(#frame)" font-family="Arial, Helvetica, sans-serif">
+    <rect width="1200" height="360" fill="#F4F0E6"/>
+    <rect x="814" width="386" height="360" fill="#1E5AA8"/>
+    <rect width="10" height="360" fill="#5DE4C7"/>
+    <text x="48" y="48" fill="#1E5AA8" font-size="15" font-weight="700" letter-spacing="2.4">ENGINEERING / RESEARCH / CURIOSITY</text>
+    <text x="44" y="137" fill="#112A46" font-size="72" font-weight="700" letter-spacing="-2.8">Kanchan Potdar</text>
+    <text x="48" y="190" fill="#1E5AA8" font-size="30" font-weight="600">Speech. Agents. Data.</text>
+    <text x="48" y="239" fill="#3C5368" font-size="22">Mechanical Engineering · IIT Kharagpur</text>
+    <path d="M48 274H756" stroke="#C9D1CF" stroke-width="1.5"/>
+    <circle cx="55" cy="312" r="6" fill="#16826E"/>
+    <text x="74" y="318" fill="#112A46" font-size="20">Build with care. Test what matters.</text>
+    <text x="848" y="48" fill="#F4F0E6" font-size="15" font-weight="700" letter-spacing="2">KP / WORK IN PROGRESS</text>
+    <g fill="none" stroke="#5DE4C7" stroke-width="2.5" stroke-linecap="round">
+      <path d="M865 140C904 140 914 220 960 220S1046 140 1107 140"/>
+      <path d="M866 212C920 212 930 128 985 128S1075 237 1148 237" opacity=".4"/>
+      <circle cx="869" cy="143" r="9" fill="#1E5AA8"/>
+      <circle cx="980" cy="215" r="9" fill="#1E5AA8"/>
+      <circle cx="1110" cy="140" r="9" fill="#1E5AA8"/>
+    </g>
+    <g fill="#F4F0E6" font-size="18" font-weight="600">
+      <text x="848" y="109">SPEECH</text>
+      <text x="949" y="254">AGENTS</text>
+      <text x="1083" y="106">DATA</text>
+    </g>
+    <path d="M848 289H1166" stroke="#79A1CF" stroke-width="1"/>
+    <text x="848" y="320" fill="#B7F4E4" font-size="15" letter-spacing="1.1">RESEARCH → BUILD → EVALUATE</text>
+  </g>
+</svg>
