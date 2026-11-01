@@ -1,4 +1,4 @@
-"""Give the generated koi GIF and PNG a solid blue square background."""
+"""Center the generated koi in a wide blue pond for a full-width README image."""
 import argparse
 from io import BytesIO
 from pathlib import Path
@@ -7,12 +7,14 @@ from PIL import Image, ImageSequence
 
 
 BACKGROUND = "#1E5AA8"
+POND_WIDTH = 1600
 
 
 def flatten(image):
     rgba = image.convert("RGBA")
-    background = Image.new("RGBA", rgba.size, BACKGROUND)
-    return Image.alpha_composite(background, rgba).convert("RGB")
+    background = Image.new("RGBA", (max(POND_WIDTH, rgba.width), rgba.height), BACKGROUND)
+    background.alpha_composite(rgba, dest=((background.width - rgba.width) // 2, 0))
+    return background.convert("RGB")
 
 
 def add_background(directory):

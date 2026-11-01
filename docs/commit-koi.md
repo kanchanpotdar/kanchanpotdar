@@ -38,10 +38,12 @@ effect, and later growth slows. The upstream visual milestones now mean commits:
 | 12,750 | Adult anatomy; further growth lengthens the body, fins, and tail |
 | 100,000 | Maximum size |
 
-The image canvas stays 512 × 512 pixels, displayed at 256 × 256 in the README;
-the **fish inside it** grows. A solid blue (`#1E5AA8`) square is composited behind
-every animation frame and the still PNG by `scripts/koi_background.py`. The daily
-workflow reapplies it after rendering, preserving the swimming animation and timing.
+The blue pond canvas stays 1600 × 512 pixels and spans the full README content
+width while keeping its proportions; the **fish inside it** grows. The original
+512 × 512 animation is centered in this wider canvas without stretching the fish.
+A solid blue (`#1E5AA8`) rectangle is composited behind every animation frame and
+the still PNG by `scripts/koi_background.py`. The daily workflow reapplies it
+after rendering, preserving the swimming animation and timing.
 Pixel rounding means every individual commit may
 not create a visible size change. Inactivity does not shrink it, although
 movement slows after 14 quiet days and enters deep rest after 60. GitHub can
