@@ -10,6 +10,8 @@ on:
     paths:
       - ".github/workflows/koi.yml"
       - "scripts/koi_commits.py"
+      - "scripts/koi_background.py"
+      - "scripts/koi-requirements.txt"
       - "tests/test_koi_commits.py"
 
 permissions:
@@ -32,6 +34,12 @@ jobs:
       - name: Check commit collection rules
         run: python3 -m unittest discover -s tests -v
 
+      - name: Install the background renderer
+        run: |
+          python3 -m venv "$RUNNER_TEMP/koi-python"
+          "$RUNNER_TEMP/koi-python/bin/python" -m pip install --disable-pip-version-check \
+            --only-binary=:all: -r scripts/koi-requirements.txt
+
       - name: Install Git Koi and collect public identity and languages
         uses: yalongwastaken/git-koi@7305e9b1fadee6f43d3b4fa543a25d4cde79856e # v1.0.2
         with:
@@ -46,6 +54,7 @@ jobs:
           python3 scripts/koi_commits.py kanchanpotdar "$RUNNER_TEMP/koi-snapshot.json" \
             --output "$RUNNER_TEMP/koi-commits.json" --summary koi/stats.json
           git-koi render "$RUNNER_TEMP/koi-commits.json" --output-dir koi --body gold
+          "$RUNNER_TEMP/koi-python/bin/python" scripts/koi_background.py koi
 
       - name: Publish changed koi assets as the bot
         run: |

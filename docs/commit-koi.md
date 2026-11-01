@@ -39,7 +39,10 @@ effect, and later growth slows. The upstream visual milestones now mean commits:
 | 100,000 | Maximum size |
 
 The image canvas stays 512 × 512 pixels, displayed at 256 × 256 in the README;
-the **fish inside it** grows. Pixel rounding means every individual commit may
+the **fish inside it** grows. A solid blue (`#1E5AA8`) square is composited behind
+every animation frame and the still PNG by `scripts/koi_background.py`. The daily
+workflow reapplies it after rendering, preserving the swimming animation and timing.
+Pixel rounding means every individual commit may
 not create a visible size change. Inactivity does not shrink it, although
 movement slows after 14 quiet days and enters deep rest after 60. GitHub can
 revise older counts (for example after attribution changes or repositories
