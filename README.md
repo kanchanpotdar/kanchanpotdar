@@ -4,7 +4,7 @@
 
 **From careful datasets to working AI systems.**
 
-[Current work](#current-work) · [Selected builds](#selected-builds) · [Beyond the code](#beyond-the-code) · [My koi pond](#my-koi-pond)
+[Current work](#user-content-current-work) · [Selected builds](#user-content-selected-builds) · [Beyond the code](#user-content-beyond-the-code) · [My koi pond](#user-content-my-koi-pond)
 
 </div>
 
