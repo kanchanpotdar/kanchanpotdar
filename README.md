@@ -18,7 +18,7 @@ I enjoy the work between a promising idea and a result I can trust: understandin
 
 <!-- PROJECT_CARDS:START -->
 <p align="center">
-<a href="https://github.com/kanchanpotdar/BTP"><img src="./assets/koi-lab/nyishi-asr.svg" width="420" alt="Nyishi speech-to-IPA — research. Smoke checks complete · validation CER next." /></a>
+<a href="https://github.com/kanchanpotdar/BTP"><img src="./assets/koi-lab/nyishi-asr.svg" width="420" alt="Nyishi speech-to-IPA — research. Final held-out test: 44.57% CER on 683 clips." /></a>
 <a href="https://github.com/kanchanpotdar/voicenterprise"><img src="./assets/koi-lab/voicenterprise.svg" width="420" alt="VoiceEnterprise — prototype. Focus: retrieval, evaluation &amp; voice latency." /></a>
 <a href="https://github.com/kanchanpotdar/My-ChatGPT-Skills"><img src="./assets/koi-lab/chatgpt-skills.svg" width="420" alt="My ChatGPT Skills — ongoing collection. Clearer instructions · useful outputs." /></a>
 <a href="https://github.com/kanchanpotdar/BeyondBot-Assignment"><img src="./assets/koi-lab/beyondbot.svg" width="420" alt="BeyondBot TDS Review Agent — published prototype. Partial ledger review · explicit coverage." /></a>
@@ -31,7 +31,7 @@ I enjoy the work between a promising idea and a result I can trust: understandin
 
 My bachelor's thesis project: a reproducible speech recognition pipeline for Nyishi Narration data using IPA transcriptions and IPA-Whisper. The work covers audio curation, careful transcript handling, and speaker/session separation.
 
-**Current stage:** Splits are frozen; processor and model smoke checks are complete. A zero-shot validation CER baseline is next, before fine-tuning and final test evaluation. The engineering checks are not a held-out accuracy result.
+**Current stage:** The frozen Narration study is complete through the declared final test. The validation-selected full fine-tuned IPA-Whisper Base checkpoint achieved **44.57% corpus CER** on all **683 held-out test clips**, versus **101.23%** for the zero-shot baseline. This is a reproducible research baseline; substantial transcription errors remain. [Methods, figures, and results](https://github.com/kanchanpotdar/BTP).
 
 ### [VoiceEnterprise](https://github.com/kanchanpotdar/voicenterprise)
 

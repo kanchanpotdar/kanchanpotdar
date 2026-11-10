@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="360" viewBox="0 0 840 360" role="img" aria-labelledby="title desc">
 <title id="title">Nyishi speech-to-IPA</title>
-<desc id="desc">Narration data curation and reproducible Whisper baselines for speech-to-IPA. Smoke checks complete · validation CER next</desc>
+<desc id="desc">Nyishi Narration speech-to-IPA. Validation-selected fine-tuning achieved 44.57% corpus CER on 683 held-out test clips.</desc>
 <defs><clipPath id="card"><rect x="1" y="1" width="838" height="358" rx="24"/></clipPath></defs>
 <rect x="1" y="1" width="838" height="358" rx="24" fill="#223249" stroke="#414B58" stroke-width="2"/>
 <rect width="840" height="6" fill="#E6C384" clip-path="url(#card)"/>
@@ -9,6 +9,6 @@
 <text x="34" y="119" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="600" fill="#DCD7BA">Nyishi speech-to-IPA</text>
 <text x="34" y="175" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#C8C4AD">Narration data curation and reproducible</text>
 <text x="34" y="216" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#C8C4AD">Whisper baselines for speech-to-IPA.</text>
-<text x="34" y="274" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#DCD7BA">Smoke checks complete · validation CER next</text>
+<text x="34" y="274" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#DCD7BA">Final test · 44.57% CER · 683 clips</text>
 <text x="34" y="326" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#E6C384" letter-spacing="1">PYTHON · PYTORCH · IPA</text>
 </svg>
