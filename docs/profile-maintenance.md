@@ -4,13 +4,13 @@ The profile combines the Koi Research Lab identity with an AI Systems Studio lay
 
 ## Content and artwork
 
-Edit `scripts/profile_content.json` to update the hero, three-stop experience timeline, four featured cards, or **Currently exploring** topics. Then run:
+Edit `scripts/profile_content.json` to update the hero, three-stop experience timeline, five featured cards, or **Currently exploring** topics. Then run:
 
 ```sh
 python3 scripts/render_profile.py
 ```
 
-The standard-library renderer regenerates `assets/koi-lab/banner.svg`, `experience.svg`, `achievements.svg`, their three `-mobile.svg` variants, and the four project cards. It also replaces only the marked project-card and research-notebook blocks in `README.md`. Review the native Markdown project explanations whenever a result or status changes; the renderer does not rewrite those explanations. Keep claims tied to their owning repositories and name the split, metric, denominator, and prototype status where relevant.
+The standard-library renderer regenerates `assets/koi-lab/banner.svg`, `experience.svg`, `achievements.svg`, their three `-mobile.svg` variants, and the five project cards. It also replaces only the marked project-card and research-notebook blocks in `README.md`. Review the native Markdown project explanations whenever a result or status changes; the renderer does not rewrite those explanations. Keep claims tied to their owning repositories and name the split, metric, denominator, and prototype status where relevant.
 
 The achievement strip is illustrative. Update the native text and alternative text if the personal details change. Avoid adding external image services or animated effects to the primary content.
 
@@ -30,4 +30,5 @@ The koi and contribution arcade run through separate existing GitHub Actions wor
 - VoiceEnterprise's 85.09% is document Recall@5 on 178 eligible development questions over a 10,000-document subset. It is not answer-quality or production performance.
 - The Financial Research Agent repository currently documents manual verification and no automated test suite. Do not add a test-count claim without a matching test record.
 - The OpenAQ card describes the implemented pipeline; its own repository holds run and test details.
+- The hydrogen SMR card describes a research reproduction at 853 K and 120 mL/min. Its validation table compares model outputs with values read from a published figure; do not present it as full experimental agreement or plant performance.
 - The experience, sports, creative, leadership, and competition details are owner-supplied background. Keep organization names and achievements current.

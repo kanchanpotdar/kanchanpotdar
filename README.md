@@ -26,7 +26,7 @@ IBM Research · multilingual LLMs &nbsp; / &nbsp; EY GDS · AI agents and Azure 
 
 ## Featured work
 
-The cards distinguish a held-out result, a development retrieval benchmark, and implemented prototypes. Each links to the project record.
+The cards distinguish a held-out result, a development retrieval benchmark, implemented systems, and a research reproduction. Each links to the project record.
 
 <!-- PROJECT_CARDS:START -->
 <p align="center">
@@ -34,6 +34,7 @@ The cards distinguish a held-out result, a development retrieval benchmark, and 
 <a href="https://github.com/kanchanpotdar/voicenterprise"><img src="./assets/koi-lab/voicenterprise.svg" width="420" alt="VoiceEnterprise: 85.09% Recall@5; 178 eligible dev questions · 10k-doc subset" /></a>
 <a href="https://github.com/kanchanpotdar/Financial-Research-Agent"><img src="./assets/koi-lab/financial-agent.svg" width="420" alt="Financial Research Agent: Parallel analysis · review before save; Research workflow · not investment advice" /></a>
 <a href="https://github.com/kanchanpotdar/openaq_medallion"><img src="./assets/koi-lab/openaq.svg" width="420" alt="OpenAQ PM2.5 pipeline: Reconciled, traceable data flow; PostgreSQL · India PM2.5" /></a>
+<a href="https://github.com/kanchanpotdar/hydrogen-assignment"><img src="./assets/koi-lab/hydrogen-smr.svg" width="420" alt="Hydrogen / SMR model: 1-D reactor · 3 catalysts; 853 K · 120 mL/min · research model" /></a>
 </p>
 <!-- PROJECT_CARDS:END -->
 
@@ -56,6 +57,10 @@ A LangGraph **prototype** that gathers company data and categorized news, runs p
 
 An **implemented** data pipeline for India PM2.5 measurements: immutable Bronze ingestion, rule-based Silver validation, Gold summaries, and audit reconciliation in PostgreSQL. Its [project documentation](https://github.com/kanchanpotdar/openaq_medallion#testing) describes isolated tests, an independent oracle, and mutation checks. The pipeline reports data quality and coverage explicitly rather than turning missing readings into clean-looking averages.
 
+### [Hydrogen / SMR reactor model](https://github.com/kanchanpotdar/hydrogen-assignment)
+
+A Python **research reproduction** of a one-dimensional, three-section steam-methane-reforming reactor model across three catalysts. It compares simulated profiles with the paper's digitized Fig. 4 curves and outlet compositions at **853 K and 120 mL/min**, then explores an operating window. The [validation table](https://github.com/kanchanpotdar/hydrogen-assignment/blob/main/results/validation_table.csv) records a notable mismatch for 57-4Q methane: **0.00676 modelled versus 0.0042** read from the experimental figure. The project documents the figure-reading uncertainty and its heat-transfer length-scale choice; these are model-validation results, not plant performance claims.
+
 </details>
 
 ## Research notebook
@@ -71,7 +76,7 @@ A compact record of questions I'm working through. Edit [`scripts/profile_conten
 
 **Working toolkit**
 
-<kbd>Python</kbd> <kbd>PyTorch</kbd> <kbd>Transformers</kbd> <kbd>LangGraph</kbd> <kbd>Qdrant</kbd> <kbd>PostgreSQL</kbd> <kbd>SQL</kbd> <kbd>Docker</kbd> <kbd>GitHub Actions</kbd>
+<kbd>Python</kbd> <kbd>PyTorch</kbd> <kbd>Transformers</kbd> <kbd>LangGraph</kbd> <kbd>Qdrant</kbd> <kbd>PostgreSQL</kbd> <kbd>SQL</kbd> <kbd>SciPy</kbd> <kbd>Docker</kbd> <kbd>GitHub Actions</kbd>
 
 These are tools used across the linked projects, not a claim of expertise in every part of their ecosystems.
 

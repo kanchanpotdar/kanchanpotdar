@@ -71,7 +71,8 @@ def icon(kind, p):
         "wave": "M0 32c12 0 12-24 24-24s12 48 24 48 12-48 24-48 12 24 24 24",
         "nodes": "M8 18 48 8 83 35 48 60 8 18M48 8v52",
         "branch": "M9 56V10m0 22h53M62 32l-12-12m12 12L50 44M9 56h53",
-        "air": "M4 17h59c24 0 24 28 0 28H24m-20 9h48"
+        "air": "M4 17h59c24 0 24 28 0 28H24m-20 9h48",
+        "reactor": "M13 7h65M25 7v48m40-48v48M25 55h40M34 24c9-10 15 10 24 0M34 38c9-10 15 10 24 0"
     }
     return f'<g transform="translate(42 31)" fill="none" stroke="{p["gold"]}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="{paths[kind]}"/></g>'
 

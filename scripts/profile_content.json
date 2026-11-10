@@ -44,6 +44,14 @@
       "result": "Reconciled, traceable data flow",
       "footnote": "PostgreSQL · India PM2.5",
       "url": "https://github.com/kanchanpotdar/openaq_medallion", "icon": "air"
+    },
+    {
+      "id": "hydrogen-smr", "name": "Hydrogen / SMR model",
+      "eyebrow": "REACTOR MODELLING · REPRODUCTION",
+      "description": ["Steam methane reforming model", "with published-figure validation."],
+      "result": "1-D reactor · 3 catalysts",
+      "footnote": "853 K · 120 mL/min · research model",
+      "url": "https://github.com/kanchanpotdar/hydrogen-assignment", "icon": "reactor"
     }
   ],
   "currently_exploring": [
