@@ -1,13 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-<title id="title">Kanchan Potdar — Koi Research Lab</title>
-<desc id="desc">A Kanagawa-inspired research profile in deep blue, warm cream, and gold.</desc>
-<rect width="1200" height="300" rx="18" fill="#1F1F28"/>
-<text x="40" y="44" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#C8C4AD" letter-spacing="2.4">IIT KHARAGPUR / MECHANICAL ENGINEERING</text>
-<text x="38" y="129" font-family="Georgia, Times New Roman, serif" font-size="72" font-weight="400" fill="#DCD7BA">Kanchan Potdar</text>
-<text x="40" y="177" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#C8C4AD">Speech AI · Agentic systems · Data engineering</text>
-<path d="M40 213H1160" stroke="#414B58" stroke-width="1.5"/>
-<text x="40" y="258" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#DCD7BA">Mechanical roots. Applied AI. Evidence that matters.</text>
-<g opacity=".75"><text x="1045" y="143" font-family="serif" font-size="112" font-weight="400" fill="#E6C384">水</text></g>
-<text x="997" y="187" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#E6C384" letter-spacing="1.6">KOI RESEARCH LAB</text>
-<g fill="none" stroke="#7FB4CA" stroke-width="2" opacity=".55"><path d="M928 240q28-17 56 0t56 0t56 0t56 0"/><path d="M928 255q28-17 56 0t56 0t56 0t56 0"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+<title id="title">Kanchan Potdar — AI/ML engineer and researcher</title>
+<desc id="desc">Koi Research Lab banner with an outlined koi, indigo water, and gold type</desc>
+<defs><linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171B2D"/><stop offset="1" stop-color="#202C49"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="350" rx="20" fill="url(#sea)"/>
+<path d="M520 278 C700 215 820 335 1000 266 S1120 235 1200 270" fill="none" stroke="#314365" stroke-width="3"/>
+<path d="M520 309 C700 245 840 353 1020 296 S1130 260 1200 300" fill="none" stroke="#82B9C4" stroke-opacity=".36" stroke-width="2"/>
+<circle cx="1040" cy="124" r="66" fill="none" stroke="#D9B77A" stroke-width="2" opacity=".65"/>
+<path d="M1005 124c22-27 51-29 78 0-27 29-56 27-78 0Zm-4 0-20-17v34zM1056 119l19-19" fill="none" stroke="#D9B77A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48" y="55" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#D9B77A" letter-spacing="2.7">KOI RESEARCH LAB  /  AI SYSTEMS STUDIO</text>
+<text x="46" y="150" font-family="Georgia, Times New Roman, serif" font-size="78" font-weight="400" fill="#F4EBDD">Kanchan Potdar</text>
+<text x="49" y="201" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="600" fill="#F4EBDD">AI/ML engineer &amp; researcher</text>
+<text x="49" y="247" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#C8C5BA">IIT Kharagpur · Mechanical Engineering</text>
+<text x="49" y="285" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#D9B77A" letter-spacing="1">Speech AI  /  Retrieval  /  Dependable agents</text>
+<text x="49" y="325" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#C8C5BA">IBM Research  /  EY GDS  /  University of Manchester</text>
 </svg>

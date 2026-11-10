@@ -1,66 +1,55 @@
 {
   "name": "Kanchan Potdar",
-  "education": "IIT KHARAGPUR / MECHANICAL ENGINEERING",
-  "focus": "Speech AI · Agentic systems · Data engineering",
-  "tagline": "Mechanical roots. Applied AI. Evidence that matters.",
+  "positioning": "AI/ML engineer & researcher",
+  "affiliation": "IIT Kharagpur · Mechanical Engineering",
+  "focus": "Speech AI  /  Retrieval  /  Dependable agents",
   "palette": {
-    "background": "#1F1F28",
-    "panel": "#223249",
-    "text": "#DCD7BA",
-    "muted": "#C8C4AD",
-    "line": "#414B58",
-    "accent": "#E6C384",
-    "wave": "#7FB4CA"
+    "ink": "#171B2D", "indigo": "#202C49", "indigo_light": "#314365",
+    "cream": "#F4EBDD", "muted": "#C8C5BA", "gold": "#D9B77A", "aqua": "#82B9C4"
   },
-  "card_radius_at_420px": 12,
+  "experience": [
+    {"organization": "IBM RESEARCH", "work": "Multilingual LLMs"},
+    {"organization": "EY GDS", "work": "AI agents · Azure"},
+    {"organization": "UNIVERSITY OF MANCHESTER", "work": "PM2.5 calibration"}
+  ],
   "projects": [
     {
-      "id": "nyishi-asr",
-      "title": "Nyishi speech-to-IPA",
-      "category": "RESEARCH",
-      "url": "https://github.com/kanchanpotdar/BTP",
-      "icon": "speech",
-      "summary": ["Narration data curation and reproducible", "Whisper baselines for speech-to-IPA."],
-      "stage": "Smoke checks complete · validation CER next",
-      "stack": "PYTHON · PYTORCH · IPA",
-      "notes": "My bachelor's thesis project: a reproducible speech recognition pipeline for Nyishi Narration data using IPA transcriptions and IPA-Whisper. The work covers audio curation, careful transcript handling, and speaker/session separation.",
-      "status_detail": "Splits are frozen; processor and model smoke checks are complete. A zero-shot validation CER baseline is next, before fine-tuning and final test evaluation. The engineering checks are not a held-out accuracy result."
+      "id": "nyishi-asr", "name": "Nyishi speech-to-IPA",
+      "eyebrow": "LOW-RESOURCE SPEECH · RESEARCH",
+      "description": ["A frozen, speaker-aware benchmark", "for IPA transcription of Nyishi."],
+      "result": "44.57% test CER · 683 clips",
+      "footnote": "Held-out test · lower is better",
+      "url": "https://github.com/kanchanpotdar/BTP", "icon": "wave"
     },
     {
-      "id": "voicenterprise",
-      "title": "VoiceEnterprise",
-      "category": "PROTOTYPE",
-      "url": "https://github.com/kanchanpotdar/voicenterprise",
-      "icon": "voice",
-      "summary": ["Hybrid retrieval, cited answers,", "and a spoken interface."],
-      "stage": "Focus: retrieval, evaluation & voice latency",
-      "stack": "RAG · QDRANT · VOICE",
-      "notes": "An enterprise RAG and voice prototype bringing together hybrid retrieval, cited answers, and a spoken interface. I'm interested in how retrieval choices, evidence handling, and latency affect the system people actually use.",
-      "status_detail": "Prototype work focused on retrieval, evaluation, and the path from a spoken question to a grounded response."
+      "id": "voicenterprise", "name": "VoiceEnterprise",
+      "eyebrow": "ENTERPRISE RETRIEVAL · PROTOTYPE",
+      "description": ["Hybrid search across synthetic", "enterprise knowledge sources."],
+      "result": "85.09% Recall@5",
+      "footnote": "178 eligible dev questions · 10k-doc subset",
+      "url": "https://github.com/kanchanpotdar/voicenterprise", "icon": "nodes"
     },
     {
-      "id": "chatgpt-skills",
-      "title": "My ChatGPT Skills",
-      "category": "ONGOING COLLECTION",
-      "url": "https://github.com/kanchanpotdar/My-ChatGPT-Skills",
-      "icon": "book",
-      "summary": ["Useful AI workflows, turned into", "repeatable tools."],
-      "stage": "Clearer instructions · useful outputs",
-      "stack": "PROMPTS · WORKFLOWS",
-      "notes": "A growing collection of reusable AI workflows: prompt optimization, visual explanations, idea refinement, research reports, and active-recall tutoring. This is where I turn useful ways of working into repeatable tools.",
-      "status_detail": "An ongoing collection refined through use, with a focus on clearer instructions and useful outputs."
+      "id": "financial-agent", "name": "Financial Research Agent",
+      "eyebrow": "AI AGENTS · PROTOTYPE",
+      "description": ["LangGraph equity research with", "a human approval gate."],
+      "result": "Parallel analysis · review before save",
+      "footnote": "Research workflow · not investment advice",
+      "url": "https://github.com/kanchanpotdar/Financial-Research-Agent", "icon": "branch"
     },
     {
-      "id": "beyondbot",
-      "title": "BeyondBot TDS Review Agent",
-      "category": "PUBLISHED PROTOTYPE",
-      "url": "https://github.com/kanchanpotdar/BeyondBot-Assignment",
-      "icon": "calculator",
-      "summary": ["Evidence-led review with deterministic", "calculations and coverage tracking."],
-      "stage": "Partial ledger review · explicit coverage",
-      "stack": "PYTHON · LLM TOOLS",
-      "notes": "A Python CLI prototype combining LLM-led investigation with deterministic calculations, evidence validation, and voucher-level coverage tracking.",
-      "status_detail": "Its published evaluation covers part of the ledger. This is a prototype with explicit review limits, not a completed financial review."
+      "id": "openaq", "name": "OpenAQ PM2.5 pipeline",
+      "eyebrow": "DATA ENGINEERING · IMPLEMENTED",
+      "description": ["India air-quality data from API", "to auditable Bronze / Silver / Gold."],
+      "result": "Reconciled, traceable data flow",
+      "footnote": "PostgreSQL · India PM2.5",
+      "url": "https://github.com/kanchanpotdar/openaq_medallion", "icon": "air"
     }
+  ],
+  "currently_exploring": [
+    {"topic": "Nyishi ASR", "detail": "error analysis after the sealed test"},
+    {"topic": "Chronos-2 / FARSS", "detail": "time-series foundation models and reliability"},
+    {"topic": "Enterprise retrieval", "detail": "evaluation quality and grounded answers"},
+    {"topic": "Dependable AI agents", "detail": "coverage, evidence, and human review"}
   ]
 }

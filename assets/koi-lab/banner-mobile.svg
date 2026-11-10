@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="330" viewBox="0 0 420 330" role="img" aria-labelledby="title desc">
+<title id="title">Kanchan Potdar — AI/ML engineer and researcher</title>
+<desc id="desc">Mobile Koi Research Lab banner with IIT Kharagpur and research and industry experience</desc>
+<defs><linearGradient id="mobile-sea" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171B2D"/><stop offset="1" stop-color="#202C49"/></linearGradient></defs>
+<rect x="0" y="0" width="420" height="330" rx="18" fill="url(#mobile-sea)"/>
+<circle cx="350" cy="73" r="34" fill="none" stroke="#D9B77A" stroke-width="2"/>
+<path d="M334 73c11-13 24-13 36 0-12 13-25 13-36 0Zm-2 0-11-9v18z" fill="none" stroke="#D9B77A" stroke-width="2"/>
+<text x="22" y="36" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#D9B77A" letter-spacing="1">KOI RESEARCH LAB  /  AI SYSTEMS STUDIO</text>
+<text x="21" y="104" font-family="Georgia, Times New Roman, serif" font-size="39" font-weight="400" fill="#F4EBDD">Kanchan Potdar</text>
+<text x="23" y="146" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#F4EBDD">AI/ML engineer &amp; researcher</text>
+<text x="23" y="179" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#C8C5BA">IIT Kharagpur · Mechanical Engineering</text>
+<path d="M22 208H398" stroke="#314365" stroke-width="2"/>
+<text x="23" y="240" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#D9B77A">Speech AI / Retrieval / Dependable agents</text>
+<text x="23" y="276" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#C8C5BA">IBM Research  /  EY GDS</text>
+<text x="23" y="301" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#C8C5BA">University of Manchester</text>
+</svg>

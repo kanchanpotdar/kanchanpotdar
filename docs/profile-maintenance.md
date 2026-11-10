@@ -1,61 +1,33 @@
-# Keeping this profile useful
+# Maintaining the profile
 
-The profile uses the **Koi Research Lab** direction: blue project cards, a gold
-accent, warm cream text, and a serif nameplate. It emphasizes AI engineering and
-research. The banner and cards live in `assets/koi-lab/`; the previous artwork
-remains in `assets/` as an archive.
+The profile combines the Koi Research Lab identity with an AI Systems Studio layout. The palette uses deep indigo `#171B2D` / `#202C49`, cream `#F4EBDD`, muted gold `#D9B77A`, and aqua `#82B9C4`. All SVG illustrations are self-contained, use system fonts, and keep contrast high enough for GitHub's light and dark pages. Native Markdown carries the longer explanations and links.
 
-## Palette
+## Content and artwork
 
-| Role | Color |
-| --- | --- |
-| Ink — banner background | `#1F1F28` |
-| Deep blue — project cards | `#223249` |
-| Gold — accent and card highlights | `#E6C384` |
-| Warm cream — primary artwork text | `#DCD7BA` |
-| Soft cream — secondary artwork text | `#C8C4AD` |
-| Blue — existing animated pond | `#1E5AA8` |
-
-The palette is inspired by [Kanagawa](https://github.com/rebelot/kanagawa.nvim).
-Cards have a 12px corner radius at their nominal 420px display width. The banner
-and card artwork use fixed colors; native README text follows the visitor's
-GitHub light/dark theme. The existing animated pond keeps its blue background.
-
-## Updating the cards
-
-Edit `scripts/profile_content.json`, then run:
+Edit `scripts/profile_content.json` to update the hero, three-stop experience timeline, four featured cards, or **Currently exploring** topics. Then run:
 
 ```sh
 python3 scripts/render_profile.py
 ```
 
-The standard-library generator writes the banner, four SVG cards, accessible
-image labels, and the **Project notes & current status** disclosure from the same
-source. It replaces only the marked project block in `README.md`. It performs no
-network requests and never changes the koi or activity workflows.
+The standard-library renderer regenerates `assets/koi-lab/banner.svg`, `experience.svg`, `achievements.svg`, their three `-mobile.svg` variants, and the four project cards. It also replaces only the marked project-card and research-notebook blocks in `README.md`. Review the native Markdown project explanations whenever a result or status changes; the renderer does not rewrite those explanations. Keep claims tied to their owning repositories and name the split, metric, denominator, and prototype status where relevant.
 
-Each card links directly to its public repository. Fixed 420px image widths let
-two cards fit a desktop profile while naturally wrapping into full-size cards
-on narrower screens. Longer descriptions and status qualifications remain in
-native Markdown inside the disclosure. Keep that text, image labels, and public
-repository status consistent when a project advances.
+The achievement strip is illustrative. Update the native text and alternative text if the personal details change. Avoid adding external image services or animated effects to the primary content.
 
-## Content updates
+## Layout and accessibility
 
-- Use **Current work** for a small number of active projects. Describe the
-  problem, contribution, and current stage; replace stage statements when work
-  advances. The BTP stage is based on its public README checked on 1 November 2026.
-- BeyondBot is labelled **Published prototype**, with partial ledger coverage
-  stated on its card and in the notes. Preserve that qualification if adding
-  evaluation numbers.
-- **Selected builds** keeps older work discoverable without presenting every
-  repository as active. Use project links and specific technical descriptions.
-- Describe prototypes by their implemented capabilities; add benchmark claims
-  only when the linked repository provides reproducible evidence.
-- Education, ISI research, aquatics, competition, and TFPS details were retained
-  from the existing profile. Update the academic year and leadership role when
-  they change.
+The hero, timeline, and achievements strip use `<picture>` with 420px mobile variants; the pond uses `width="100%"`. Cards use nominal `width="420"` and wrap from two columns to one. GitHub scales images on narrow screens. Keep SVG text short and place important qualifications in Markdown, where visitors can read, select, and enlarge them. Every decorative or information-bearing SVG has a title and description; README image alternatives summarize its content. The contribution arcade is secondary and remains inside a disclosure.
 
-The koi and contribution arcade retain their independent daily workflows. The
-arcade sits inside a disclosure section so projects stay prominent. See
-[commit-koi.md](commit-koi.md) for the growth rules and update process.
+Check the rendered README on a wide screen and a phone-width viewport, in both GitHub themes. Inspect text clipping, tap targets, image fallbacks, color contrast, and heading navigation. Parse the SVG files, run the README link checker, and inspect the diff before publishing.
+
+## Automation boundaries
+
+The koi and contribution arcade run through separate existing GitHub Actions workflows. Do not change their schedules, permissions, output paths, or rendering scripts for profile layout edits. The koi workflow writes `koi/pond.gif`, `koi/pond.png`, and `koi/stats.json`; the arcade workflow writes SVGs to the `output` branch. See [commit-koi.md](commit-koi.md) for the koi growth rules. Run `python3 -m unittest discover -s tests -v` after any koi-related change.
+
+## Evidence notes
+
+- The Nyishi card uses the public BTP report's final held-out test CER on 683 clips. Do not mix that with validation CER.
+- VoiceEnterprise's 85.09% is document Recall@5 on 178 eligible development questions over a 10,000-document subset. It is not answer-quality or production performance.
+- The Financial Research Agent repository currently documents manual verification and no automated test suite. Do not add a test-count claim without a matching test record.
+- The OpenAQ card describes the implemented pipeline; its own repository holds run and test details.
+- The experience, sports, creative, leadership, and competition details are owner-supplied background. Keep organization names and achievements current.

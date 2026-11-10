@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="185" viewBox="0 0 1200 185" role="img" aria-labelledby="title desc">
+<title id="title">Experience across research and industry</title>
+<desc id="desc">IBM Research: multilingual LLMs; EY GDS: AI agents and Azure; University of Manchester: PM2.5 calibration</desc>
+<defs><linearGradient id="timeline-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171B2D"/><stop offset="1" stop-color="#202C49"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="185" rx="18" fill="url(#timeline-bg)"/>
+<text x="35" y="39" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#D9B77A" letter-spacing="2">EXPERIENCE  /  RESEARCH &amp; INDUSTRY</text>
+<path d="M75 90H1125" stroke="#314365" stroke-width="3"/>
+<circle cx="75" cy="90" r="8" fill="#D9B77A"/>
+<text x="75" y="129" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#F4EBDD">IBM RESEARCH</text>
+<text x="75" y="158" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#C8C5BA">Multilingual LLMs</text>
+<circle cx="575" cy="90" r="8" fill="#D9B77A"/>
+<text x="575" y="129" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#F4EBDD">EY GDS</text>
+<text x="575" y="158" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#C8C5BA">AI agents · Azure</text>
+<circle cx="1110" cy="90" r="8" fill="#D9B77A"/>
+<text x="1122" y="129" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#F4EBDD">UNIVERSITY OF MANCHESTER</text>
+<text x="1122" y="158" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#C8C5BA">PM2.5 calibration</text>
+</svg>
